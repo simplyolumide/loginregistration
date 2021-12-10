@@ -1,0 +1,36 @@
+@import 'antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 100vh;
+    
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #567bf3;
+    width: 40%;
+    height: 100vh;
+    margin-left: 0;
+    flex-direction: row;
+}
+
+.main{
+   margin-left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-field{
+    margin-top: 20%;
+    margin: auto 140px;
+    
+}
+.input-field{
+   margin-left: 20px;
+    width: 35vw;
+}
